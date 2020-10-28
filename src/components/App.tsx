@@ -1,8 +1,13 @@
 import React from 'react';
+import Navbar from './Navbar';
+import TodoList from './TodoList';
 
 const App = () => {
     return(
-        <h1>Hello world!</h1>
+        <>
+            <Navbar />
+            <TodoList />
+        </>     
     );
 }
 
